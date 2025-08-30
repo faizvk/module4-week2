@@ -60,6 +60,7 @@ btn.addEventListener("click", (e) => {
     } else {
       email.value = "";
       password.value = "";
+      success_p.textContent = "";
       window.location.reload();
     }
   } else {
