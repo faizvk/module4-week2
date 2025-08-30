@@ -64,6 +64,6 @@ btn.addEventListener("click", (e) => {
       window.location.reload();
     }
   } else {
-    alert("Please fix the errors before submitting.");
+    onChange();
   }
 });
